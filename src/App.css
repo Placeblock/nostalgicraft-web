@@ -1,42 +1,120 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#app {
+  height: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container-img {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-@keyframes logo-spin {
+#title-container-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/images/nature.jpg");
+}
+
+#title-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 100px;
+  backdrop-filter: blur(3px);
+  animation-name: buildup;
+  animation-duration: 2.5s;
+}
+
+#title {
+  opacity: 1;
+  text-shadow: 0px 0px 8px rgb(184, 195, 248);
+}
+
+@keyframes buildup {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+#scroll-down-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  rotate: 45deg;
+  background-color: transparent;
+  border: 5px solid white;
+  border-left: 0;
+  border-top: 0;
+  transition: scale 0.2s;
+  opacity: 0;
+  animation: scroll-down-wiggle 1s 2s, buildup 1s 2s;
+  animation-fill-mode: forwards;
+}
+
+#scroll-down-btn:hover {
+  scale: 1.1;
+}
+
+@keyframes scroll-down-wiggle {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0px;
   }
 }
 
-.card {
-  padding: 2em;
+#address-container-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./assets/images/indoor.jpg");
 }
 
-.read-the-docs {
-  color: #888;
+#address-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+#address {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 150px;
+  transition: scale 0.3s;
+}
+
+#address:hover {
+  scale: 1.05;
+}
+
+.content-section {
+  overflow: hidden;
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.section-content {
+  max-width: 600px;
+  width: 100%;
+}
+
+
+
+#spacing-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/cave.jpg");
 }
