@@ -6,11 +6,16 @@
   z-index: -1;
   position: absolute;
   width: 100%;
-  top: 0px;
-  bottom: 0px;
+  height: 100%;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+  .container-img {
+    background-attachment: scroll;
+  }
 }
 
 #title-container-img {
@@ -25,7 +30,7 @@
   align-items: center;
   flex-direction: column;
   color: white;
-  font-size: 100px;
+  font-size: min(15vw, 100px);
   backdrop-filter: blur(3px);
   animation-name: buildup;
   animation-duration: 2.5s;
@@ -85,14 +90,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  min-height: 500px;
+  font-size: 50px;
+  flex-direction: column;
+  color: white;
+  line-height: 20px;
 }
 
 #address {
   background-color: transparent;
   border: none;
   color: white;
-  font-size: 150px;
+  font-size: min(20vw, 100px);
   transition: scale 0.3s;
 }
 
@@ -117,4 +126,8 @@
 
 #spacing-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/cave.jpg");
+}
+#end-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/landscape.jpg");
+  height: 100vh;
 }
