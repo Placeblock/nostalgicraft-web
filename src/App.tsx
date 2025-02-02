@@ -35,8 +35,7 @@ function App() {
         <section id="address-container">
           <div className='container-img' id="address-container-img"></div>
           <button onClick={copyAddress} id="address" className="fantasy">nostalgicraft.com</button>
-          <p className="fantasy">1.21.4</p>
-          <p className="fantasy">14.02.2025</p>
+          <p className="fantasy">14.02.2025 - 1.21.4</p>
           <div id="main-discord-link"><DiscordLink /></div>
         </section>
         <section className="content-section">
