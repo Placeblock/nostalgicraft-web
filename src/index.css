@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Tangerine";
-  src: url("./assets/Tangerine-Regular.ttf");
+  src: url("/assets/Tangerine-Regular.ttf");
   font-weight: normal;
 }
 @font-face {
   font-family: "Tangerine";
-  src: url("./assets/Tangerine-Bold.ttf");
+  src: url("/assets/Tangerine-Bold.ttf");
   font-weight: bold;
 }
 

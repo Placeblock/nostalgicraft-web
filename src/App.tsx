@@ -41,6 +41,10 @@ function App() {
             <h2>Technical</h2>
             <p>You can join the server without mods at any time</p>
             <p>However, I've created a Quality-of-Life Modpack for enhancing your immersive gameplay :)</p>
+            <div id="mod-container">
+              <a target='_blank' href="/assets/Nostalgicraft.zip">Mods .zip</a>
+              <a target='_blank' href="/assets/Nostalgicraft-CurseForge.zip">CurseForge Modpack</a>
+            </div>
           </div>
         </section>
         <section style={{"minHeight": "200px", "position": "relative"}}>
