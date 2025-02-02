@@ -139,9 +139,12 @@
 }
 
 #mod-container a {
-  background-color: rgb(169, 202, 156);
-  padding: 8px;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  padding-inline: 8px;
+  padding-block: 5px;
+  color: rgb(59, 45, 17);
+  border-radius: 12px;
+  border: 2px solid rgb(100, 83, 48)
 }
 
 #main-discord-link a {
