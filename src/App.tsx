@@ -1,4 +1,5 @@
  import './App.css'
+import DiscordLink from './components/DiscordLink';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
           <div className='container-img' id="address-container-img"></div>
           <button onClick={copyAddress} id="address" className="fantasy">nostalgicraft.com</button>
           <p className="fantasy">1.21.4</p>
+          <div id="main-discord-link"><DiscordLink /></div>
         </section>
         <section className="content-section">
           <div className="section-content">

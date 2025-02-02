@@ -143,3 +143,14 @@
   padding: 8px;
   color: black;
 }
+
+#main-discord-link a {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.26);
+  border-radius: 10px;
+  padding: 5px;
+  padding-inline: 15px;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px rgb(22, 22, 22);
+  backdrop-filter: blur(4px);
+}
