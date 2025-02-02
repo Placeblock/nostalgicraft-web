@@ -25,7 +25,7 @@ function App() {
               What are you going to build? What marks will you leave behind that make the sprouting land even more admirable than anyone would have thought?<br />
               But be careful of the dark. As calm as the world looks, things change when the protecting sun sets and the hazardous night draws in.
               Monsters will lurk in the shadows casted by the moon no matter how safe you feel and you should strive hard to survive.
-              Come and experience this adventure with your own eys, be creative, bring your friends, have fun!<br />
+              Come and experience this adventure with your own eyes, be creative, bring your friends, have fun!<br />
               Yours sincerely<br />
               <b>Felix</b>
             </p>
@@ -56,7 +56,7 @@ function App() {
             <ol>
               <li>Don't grieve other buildings</li>
               <li>Don't kill others intentionally</li>
-              <li>Don't be meanful</li>
+              <li>Don't be mean</li>
               <li>Don't scream around</li>
               <li>Be creative. Nostalgicraft is more than just survival. The first goal is NOT having full enchanted armor!</li>
               <li>Have fun!</li>
