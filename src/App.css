@@ -47,7 +47,8 @@
 	justify-content: center;
 	align-items: center;
 	background-color: white;
-  border-bottom: 3px solid black;
+  box-shadow: 0px 0px 10px black;
+  position: relative;
 }
 
 #discord-section a {
@@ -177,4 +178,19 @@
   font-size: 20px;
   box-shadow: 0px 0px 10px rgb(22, 22, 22);
   backdrop-filter: blur(4px);
+}
+
+header {
+  z-index: 20;
+  top: 0px;
+  position: sticky;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Tangerine";
+  font-weight: bold;
+  height: 80px;
+  box-shadow: 0px 0px 10px black;
 }

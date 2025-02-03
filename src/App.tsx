@@ -1,5 +1,6 @@
  import './App.css'
 import DiscordLink from './components/DiscordLink';
+import Timer from './components/Timer';
 
 function App() {
 
@@ -14,10 +15,13 @@ function App() {
         <h1 id="title" className="fantasy">Nostalgicraft</h1>
         <a id="scroll-down-btn" href="#story"></a>
       </section>
+      <header>
+        <Timer />
+      </header>
       <div id="content">
-		<section id="discord-section">
-		  <span>&lt;&lt;</span><DiscordLink /><span>&gt;&gt;</span>
-		</section>
+        <section id="discord-section">
+          <span>&lt;&lt;</span><DiscordLink /><span>&gt;&gt;</span>
+        </section>
         <section className="content-section" id="story">
           <div className="section-content">
             <h2 style={{marginTop: "0px"}}>Welcome, wanderers!</h2>
