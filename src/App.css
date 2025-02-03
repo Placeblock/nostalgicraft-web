@@ -41,6 +41,27 @@
   text-shadow: 0px 0px 8px rgb(184, 195, 248);
 }
 
+#discord-section {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+  border-bottom: 3px solid black;
+}
+
+#discord-section a {
+  padding-inline: 8px;
+  padding-block: 5px;
+  color: rgb(59, 45, 17);
+  font-size: 30px;
+  font-family: monospace;
+  letter-spacing: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
 @keyframes buildup {
   from {
     opacity: 0;

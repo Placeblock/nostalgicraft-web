@@ -15,6 +15,9 @@ function App() {
         <a id="scroll-down-btn" href="#story"></a>
       </section>
       <div id="content">
+		<section id="discord-section">
+		  <span>&lt;&lt;</span><DiscordLink /><span>&gt;&gt;</span>
+		</section>
         <section className="content-section" id="story">
           <div className="section-content">
             <h2 style={{marginTop: "0px"}}>Welcome, wanderers!</h2>
